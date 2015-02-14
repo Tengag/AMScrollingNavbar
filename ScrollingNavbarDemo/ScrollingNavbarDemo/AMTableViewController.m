@@ -41,7 +41,7 @@
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"nav"]];
     
     // Just call this line to enable the scrolling navbar
-    [self followScrollView:self.tableView usingTopConstraint:self.topConstraint withDelay:65];
+    [self followScrollView:self.tableView];
     [self setShouldScrollWhenContentFits:YES];
 }
 
